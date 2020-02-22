@@ -22,12 +22,12 @@ function ready() {
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            time = Date.parse(this.responseText);
+            time = Date.parse(JSON.parse(this.responseText).utc_datetime);
             setTime();
         }
     };
 
-    xmlhttp.open("GET", "/api/v1/time", true);
+    xmlhttp.open("GET", "https://worldtimeapi.org/api/timezone/etc/gmt", true);
     xmlhttp.send();
 }
 
