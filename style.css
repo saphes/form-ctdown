@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap');
+
+.timer {
+    color: black;
+    font-size: 24px;
+    font-family: 'PT Sans Narrow';
+    transform: translate(330px, 30px);
+}
+
+p {
+    font-size: 24px;
+    transform: translate(4px);
+}
+
+.hms {
+    font-size: 48px;
+    margin-top: -40px;
+}
+
+div {
+    margin-bottom: -20px;
+    margin-top: -30px;
+    margin-left: -30px;
+    padding: -22px;
+    border: none;
+    outline: none;
+}
