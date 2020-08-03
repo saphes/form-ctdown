@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:700&display=swap');
+@import url('https://rsms.me/inter/inter.css');
 
 .timer {
     color: black;
     font-size: 24px;
-    font-family: 'PT Sans Narrow';
+    font-family: 'Inter', sans-serif;
     transform: translate(330px, 30px);
 }
 
