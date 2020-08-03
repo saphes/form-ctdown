@@ -4,7 +4,7 @@
     color: black;
     font-size: 24px;
     font-family: 'Inter', sans-serif;
-    letter-spacing: -0.1em;
+    letter-spacing: 0.1em;
     font-weight: 600;
     transform: translate(330px, 30px);
 }
