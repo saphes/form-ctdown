@@ -22,7 +22,7 @@ function ready() {
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            time = Date.parse(JSON.parse(this.responseText));
+            time = Date.parse(this.responseText);
             setTime();
         }
     };
