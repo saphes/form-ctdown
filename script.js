@@ -27,7 +27,7 @@ function ready() {
         }
     };
 
-    xmlhttp.open("GET", "https://worldtimeapi.org/api/timezone/etc/gmt", true);
+    xmlhttp.open("GET", "https://kian-time.builtwithdark.com/", true);
     xmlhttp.send();
 }
 
