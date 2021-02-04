@@ -34,7 +34,7 @@ function ready() {
 function setTime() {
     setInterval(_=>{
         secselapsed++;
-        let endtime = Date.parse("2020-08-09T14:00:00.000000+00:00");
+        let endtime = Date.parse("2021-02-07T14:00:00.000000+00:00");
         let tstr = ""+(((endtime - time)/1000)-secselapsed);
         if (parseInt(tstr) > 0) {
             $("#hms").text(toHHMMSS(tstr));
